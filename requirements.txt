@@ -1,0 +1,9 @@
+Django
+djangorestframework
+django-cors-headers
+dj-database-url
+python-dotenv
+psycopg[binary]
+rav
+python-decouple
+gunicorn
