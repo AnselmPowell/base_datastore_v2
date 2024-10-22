@@ -81,6 +81,8 @@ CORS_ALLOW_ALL_ORIGINS = False
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
+print("--------- DATABASE URL  ",app_config['DATABASE_URL'])
+
 DATABASES = {
     'default': dj_database_url.config(default=app_config['DATABASE_URL'])
 }
